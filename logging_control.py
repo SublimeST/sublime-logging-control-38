@@ -60,7 +60,7 @@ defaults = {
     'logging_file_fmt': "%(asctime)s %(levelname)-6s - %(name)s:%(lineno)s - %(funcName)s() - %(message)s",
     'logging_file_datefmt': "%Y%m%d-%H:%M:%S",
     'logging_file_level': 'DEBUG',
-    'logging_file_path': 'sublime_output.log',
+    'logging_file_path': 'sublime_output38.log',
     'logging_file_rotating': True,  # True will use RotatingFileHandler, otherwise FileHandler
     'logging_file_clear_on_reset': True,
     'logging_config_dict_file': None,  # Use logging.config.dictConfig() to configure logging.
@@ -266,7 +266,7 @@ def reset_logging_system(settings=None):
                     rootlevel, consolelevel, filelevel)
 
 
-class LoggingShowDefaultLogFileCommand(sublime_plugin.WindowCommand):
+class Logging38ShowDefaultLogFileCommand(sublime_plugin.WindowCommand):
     """
     command key: logging_show_default_log_file
     Will open the default log file.
@@ -296,7 +296,7 @@ class LoggingShowDefaultLogFileCommand(sublime_plugin.WindowCommand):
             print(" - note: logging in general is currently DISABLED (logging_is_enabled=%s)." % logging_is_enabled)
 
 
-class LoggingToggleCommand(sublime_plugin.WindowCommand):
+class Logging38ToggleCommand(sublime_plugin.WindowCommand):
     """
     command key: logging_toggle
     """
@@ -339,7 +339,7 @@ class LoggingToggleCommand(sublime_plugin.WindowCommand):
             sublime.status_message("Logging Turned Off (entirely)")
 
 
-class LoggingSetLevelCommand(sublime_plugin.WindowCommand):
+class Logging38SetLevelCommand(sublime_plugin.WindowCommand):
     """
     command key: logging_set_level
     """
@@ -360,7 +360,7 @@ class LoggingSetLevelCommand(sublime_plugin.WindowCommand):
             logger.info("Persisting settings with logging_root_level = %s", level)
 
 
-class LoggingResetCommand(sublime_plugin.WindowCommand):
+class Logging38ResetCommand(sublime_plugin.WindowCommand):
     """
     command key: logging_reset
     """
