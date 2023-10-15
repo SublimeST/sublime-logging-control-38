@@ -1,11 +1,11 @@
 [
-    { "caption": "Logging38: Reset logging system", "command": "logging38_reset" },
-    { "caption": "Logging38: Open log file", "command": "logging38_show_default_log_file" },
-    { "caption": "Logging38: Toggle logging", "command": "logging38_toggle" },
-    { "caption": "Logging38: Enable logging", "command": "logging38_toggle", "args": {"enable": true} },
-    { "caption": "Logging38: Disable logging", "command": "logging38_toggle", "args": {"enable": false} },
-    { "caption": "Logging38: Level = DEBUG", "command": "logging38_set_level", "args": {"level": "DEBUG"} },
-    { "caption": "Logging38: Level = INFO", "command": "logging38_set_level", "args": {"level": "INFO"} },
-    { "caption": "Logging38: Level = WARNING", "command": "logging38_set_level", "args": {"level": "WARNING"} },
-    { "caption": "Logging38: Level = FATAL", "command": "logging38_set_level", "args": {"level": "FATAL"} }
+    { "caption": "Logging (3.8): Reset logging system", "command": "logging38_reset" },
+    { "caption": "Logging (3.8): Open log file", "command": "logging38_show_default_log_file" },
+    { "caption": "Logging (3.8): Toggle logging", "command": "logging38_toggle" },
+    { "caption": "Logging (3.8): Enable logging", "command": "logging38_toggle", "args": {"enable": true} },
+    { "caption": "Logging (3.8): Disable logging", "command": "logging38_toggle", "args": {"enable": false} },
+    { "caption": "Logging (3.8): Level = DEBUG", "command": "logging38_set_level", "args": {"level": "DEBUG"} },
+    { "caption": "Logging (3.8): Level = INFO", "command": "logging38_set_level", "args": {"level": "INFO"} },
+    { "caption": "Logging (3.8): Level = WARNING", "command": "logging38_set_level", "args": {"level": "WARNING"} },
+    { "caption": "Logging (3.8): Level = FATAL", "command": "logging38_set_level", "args": {"level": "FATAL"} }
 ]
